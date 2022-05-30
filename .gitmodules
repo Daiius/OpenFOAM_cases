@@ -1,3 +1,3 @@
 [submodule "fan_analyses"]
 	path = fan_analyses
-	url = ./fan_analyses
+	url = git@github.com:Daiius/fan_analyses.git
