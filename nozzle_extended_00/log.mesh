@@ -1,0 +1,716 @@
+/*---------------------------------------------------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
+|  \\    /   O peration     | Version:  2212                                  |
+|   \\  /    A nd           | Website:  www.openfoam.com                      |
+|    \\/     M anipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+Build  : _fd8c5e00-20221221 OPENFOAM=2212 version=2212
+Arch   : "LSB;label=32;scalar=64"
+Exec   : cartesianMesh -parallel
+Date   : Jan 01 2023
+Time   : 02:32:40
+Host   : Ubuntu-OpenFOAM
+PID    : 23519
+I/O    : uncollated
+Case   : /home/daiji/OpenFOAM/nozzle_extended/nozzle_extended_00
+nProcs : 8
+Hosts  :
+(
+    (Ubuntu-OpenFOAM 8)
+)
+Pstream initialized with:
+    floatTransfer      : 0
+    nProcsSimpleSum    : 0
+    commsType          : nonBlocking
+    polling iterations : 0
+trapFpe: Floating point exception trapping enabled (FOAM_SIGFPE).
+fileModificationChecking : Monitoring run-time modified files using timeStampMaster (fileModificationSkew 5, maxFileModificationPolls 20)
+allowSystemOperations : Allowing user-supplied system call operations
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+Create time
+
+Created 69 surface patches
+Setting root cube size and refinement parameters
+Root box (-25.6 -25.6 -23.1) (25.6 25.6 28.1)
+Requested cell size corresponds to octree level 8
+Requested boundary cell size corresponds to octree level 10
+Refining boundary
+Refining boundary boxes to the given size
+Number of leaves per processor 1
+Distributing leaves to processors
+Finished distributing leaves to processors
+Distributing load between processors
+Finished distributing load between processors
+Distributing load between processors
+Finished distributing load between processors
+Distributing load between processors
+Finished distributing load between processors
+Distributing load between processors
+Finished distributing load between processors
+Distributing load between processors
+Finished distributing load between processors
+Distributing load between processors
+Finished distributing load between processors
+Finished refining boundary boxes
+Marking inside/outside.
+Number of internal boxes is 1418259
+Number of outside boxes is 1023649
+Number of data boxes is 617674
+Number of unknown boxes is 0
+Refining boxes inside objects
+Ref level for object nozzle_tip is 11 refinement thickness 0
+Ref level for object nozzle_tip_tip is 12 refinement thickness 0
+Distributing load between processors
+Finished distributing load between processors
+Distributing load between processors
+Finished distributing load between processors
+Distributing load between processors
+Finished distributing load between processors
+Finished refinement of boxes inside objects
+Marking inside/outside.
+Number of internal boxes is 2398839
+Number of outside boxes is 1056593
+Number of data boxes is 653338
+Number of unknown boxes is 0
+Refining boxes near DATA boxes
+Marking inside/outside.
+Number of internal boxes is 3029911
+Number of outside boxes is 1085805
+Number of data boxes is 668918
+Number of unknown boxes is 0
+Finished refining boxes near DATA boxes
+Distributing load between processors
+Finished distributing load between processors
+Adding an additional layer of cells
+Finished adding an additional layer of octree cubes
+Extracting polyMesh
+Creating octree vertices
+Octree nodes 534452
+Resizing points!
+Finished creating octree vertices
+Creating polyMesh from octree
+Reordering boundary faces 
+Finished reordering boundary faces
+Finished creating polyMesh
+Mesh has :
+432217 vertices 
+1040075 faces
+304313 cells
+Total number of cells 2541135
+Finished extracting polyMesh
+Checking for irregular surface connections
+Checking cells connected to surface vertices
+Found 925166 boundary faces 
+Found 94 problematic vertices
+Finished checking cells connected to surface vertices
+Checking cells connected to surface vertices
+Found 925166 boundary faces 
+Found 0 problematic vertices
+Finished checking cells connected to surface vertices
+Checking for non - manifold surface edges
+Found 0 non - manifold edges
+Finished checking for non - manifold surface edges
+Checking faces connections to surface vertices
+Found 0 invalid connections
+Finished checking faces connections to surface vertices
+Checking cells connected to surface vertices
+Found 0 problematic vertices
+Finished checking cells connected to surface vertices
+Checking for non - manifold surface edges
+Found 0 non - manifold edges
+Finished checking for non - manifold surface edges
+Checking faces connections to surface vertices
+Found 0 invalid connections
+Finished checking faces connections to surface vertices
+Finished checking for irregular surface connections
+Found 925166 boundary faces 
+Found 176 non - mappable cells
+Removing selected cells from the mesh
+New cells size 2540959
+Reordering boundary faces 
+Finished reordering boundary faces
+Removing faces
+Finished removing faces
+Finished removing selected cells from the mesh
+Found 924768 boundary faces 
+Found 51 non - mappable cells
+Removing selected cells from the mesh
+New cells size 2540908
+Reordering boundary faces 
+Finished reordering boundary faces
+Removing faces
+Finished removing faces
+Finished removing selected cells from the mesh
+Found 924564 boundary faces 
+Found 0 non - mappable cells
+Checking cell connections
+Finished checking cell connections
+Checking for irregular surface connections
+Checking cells connected to surface vertices
+Found 924564 boundary faces 
+Found 20 problematic vertices
+Finished checking cells connected to surface vertices
+Checking cells connected to surface vertices
+Found 924564 boundary faces 
+Found 0 problematic vertices
+Finished checking cells connected to surface vertices
+Checking for non - manifold surface edges
+Found 0 non - manifold edges
+Finished checking for non - manifold surface edges
+Checking faces connections to surface vertices
+Found 0 invalid connections
+Finished checking faces connections to surface vertices
+Checking cells connected to surface vertices
+Found 0 problematic vertices
+Finished checking cells connected to surface vertices
+Checking for non - manifold surface edges
+Found 0 non - manifold edges
+Finished checking for non - manifold surface edges
+Checking faces connections to surface vertices
+Found 0 invalid connections
+Finished checking faces connections to surface vertices
+Finished checking for irregular surface connections
+Found 924564 boundary faces 
+Found 0 non - mappable cells
+Checking cell connections
+Finished checking cell connections
+Checking for irregular surface connections
+Checking cells connected to surface vertices
+Found 924564 boundary faces 
+Found 0 problematic vertices
+Finished checking cells connected to surface vertices
+Checking for non - manifold surface edges
+Found 0 non - manifold edges
+Finished checking for non - manifold surface edges
+Checking faces connections to surface vertices
+Found 0 invalid connections
+Finished checking faces connections to surface vertices
+Finished checking for irregular surface connections
+Found 924564 boundary faces 
+Found 0 non - mappable cells
+Checking cell connections
+Finished checking cell connections
+Found 924564 boundary faces 
+Marked 0 faces for decomposition
+Found 924564 boundary faces 
+Smoothing mesh surface before mapping.
+Found 0 corners at the surface of the volume mesh
+Found 0 edge points at the surface of the volume mesh
+Starting untangling the surface of the volume mesh
+Number of inverted boundary faces is 425
+Number of inverted boundary faces is 163
+Number of inverted boundary faces is 115
+Number of inverted boundary faces is 79
+Number of inverted boundary faces is 71
+Number of inverted boundary faces is 67
+Number of inverted boundary faces is 65
+Number of inverted boundary faces is 66
+Number of inverted boundary faces is 67
+Smoothing remaining inverted vertices 
+Number of inverted boundary faces is 65
+Number of inverted boundary faces is 32
+Number of inverted boundary faces is 25
+Number of inverted boundary faces is 30
+Number of inverted boundary faces is 30
+Smoothing remaining inverted vertices 
+Number of inverted boundary faces is 45
+Smoothing remaining inverted vertices 
+Number of inverted boundary faces is 56
+Smoothing remaining inverted vertices 
+Number of inverted boundary faces is 69
+Smoothing remaining inverted vertices 
+Number of inverted boundary faces is 80
+Smoothing remaining inverted vertices 
+Number of inverted boundary faces is 93
+Smoothing remaining inverted vertices 
+Number of inverted boundary faces is 104
+Smoothing remaining inverted vertices 
+Number of inverted boundary faces is 0
+Finished untangling the surface of the volume mesh
+Found 0 corners at the surface of the volume mesh
+Found 0 edge points at the surface of the volume mesh
+Starting untangling the surface of the volume mesh
+Number of inverted boundary faces is 228
+Number of inverted boundary faces is 117
+Number of inverted boundary faces is 75
+Number of inverted boundary faces is 68
+Number of inverted boundary faces is 66
+Number of inverted boundary faces is 67
+Number of inverted boundary faces is 66
+Smoothing remaining inverted vertices 
+Number of inverted boundary faces is 12
+Number of inverted boundary faces is 7
+Number of inverted boundary faces is 8
+Number of inverted boundary faces is 12
+Smoothing remaining inverted vertices 
+Number of inverted boundary faces is 4
+Number of inverted boundary faces is 3
+Number of inverted boundary faces is 5
+Number of inverted boundary faces is 8
+Smoothing remaining inverted vertices 
+Number of inverted boundary faces is 3
+Number of inverted boundary faces is 4
+Number of inverted boundary faces is 5
+Smoothing remaining inverted vertices 
+Number of inverted boundary faces is 3
+Number of inverted boundary faces is 3
+Number of inverted boundary faces is 4
+Smoothing remaining inverted vertices 
+Number of inverted boundary faces is 2
+Number of inverted boundary faces is 2
+Number of inverted boundary faces is 4
+Smoothing remaining inverted vertices 
+Number of inverted boundary faces is 1
+Number of inverted boundary faces is 1
+Number of inverted boundary faces is 2
+Smoothing remaining inverted vertices 
+Number of inverted boundary faces is 0
+Finished untangling the surface of the volume mesh
+Found 0 corners at the surface of the volume mesh
+Found 0 edge points at the surface of the volume mesh
+Starting untangling the surface of the volume mesh
+Number of inverted boundary faces is 303
+Number of inverted boundary faces is 122
+Number of inverted boundary faces is 76
+Number of inverted boundary faces is 71
+Number of inverted boundary faces is 61
+Number of inverted boundary faces is 61
+Number of inverted boundary faces is 60
+Number of inverted boundary faces is 60
+Number of inverted boundary faces is 62
+Smoothing remaining inverted vertices 
+Number of inverted boundary faces is 7
+Number of inverted boundary faces is 8
+Number of inverted boundary faces is 6
+Number of inverted boundary faces is 12
+Number of inverted boundary faces is 8
+Smoothing remaining inverted vertices 
+Number of inverted boundary faces is 3
+Number of inverted boundary faces is 4
+Number of inverted boundary faces is 6
+Smoothing remaining inverted vertices 
+Number of inverted boundary faces is 5
+Smoothing remaining inverted vertices 
+Number of inverted boundary faces is 3
+Number of inverted boundary faces is 4
+Number of inverted boundary faces is 6
+Smoothing remaining inverted vertices 
+Number of inverted boundary faces is 5
+Smoothing remaining inverted vertices 
+Number of inverted boundary faces is 3
+Number of inverted boundary faces is 4
+Number of inverted boundary faces is 4
+Smoothing remaining inverted vertices 
+Number of inverted boundary faces is 5
+Smoothing remaining inverted vertices 
+Number of inverted boundary faces is 0
+Finished untangling the surface of the volume mesh
+Finished smoothing mesh surface before mapping.
+Mapping vertices onto surface
+Finished mapping vertices onto surface
+Found 0 corners at the surface of the volume mesh
+Found 0 edge points at the surface of the volume mesh
+Starting untangling the surface of the volume mesh
+Number of inverted boundary faces is 235
+Number of inverted boundary faces is 5
+Number of inverted boundary faces is 6
+Number of inverted boundary faces is 5
+Smoothing remaining inverted vertices 
+Number of inverted boundary faces is 3
+Number of inverted boundary faces is 4
+Number of inverted boundary faces is 5
+Smoothing remaining inverted vertices 
+Number of inverted boundary faces is 2
+Number of inverted boundary faces is 2
+Number of inverted boundary faces is 2
+Smoothing remaining inverted vertices 
+Number of inverted boundary faces is 3
+Number of inverted boundary faces is 1
+Number of inverted boundary faces is 1
+Number of inverted boundary faces is 1
+Smoothing remaining inverted vertices 
+Number of inverted boundary faces is 1
+Number of inverted boundary faces is 1
+Number of inverted boundary faces is 1
+Smoothing remaining inverted vertices 
+Number of inverted boundary faces is 1
+Number of inverted boundary faces is 1
+Number of inverted boundary faces is 1
+Smoothing remaining inverted vertices 
+Number of inverted boundary faces is 1
+Number of inverted boundary faces is 1
+Number of inverted boundary faces is 1
+Smoothing remaining inverted vertices 
+Number of inverted boundary faces is 1
+Number of inverted boundary faces is 0
+Finished untangling the surface of the volume mesh
+Found 924564 boundary faces 
+Extracting edges
+Starting topological adjustment of patches
+Finished topological adjustment of patches
+Starting geometrical adjustment of patches
+Found 120 corners at the surface of the volume mesh
+Found 9850 edge points at the surface of the volume mesh
+25 edge groups found!
+--> FOAM Warning : 
+    From bool Foam::Module::edgeExtractor::checkFacePatchesGeometry()
+    in file utilities/surfaceTools/edgeExtraction/edgeExtractor/edgeExtractor.C at line 2138
+    Found 5 points with inverted surface normals. Getting rid of them...
+Starting untangling the surface of the volume mesh
+Number of inverted boundary faces is 272
+Number of inverted boundary faces is 79
+Number of inverted boundary faces is 49
+Number of inverted boundary faces is 47
+Number of inverted boundary faces is 47
+Number of inverted boundary faces is 47
+Smoothing remaining inverted vertices 
+Number of inverted boundary faces is 0
+Finished untangling the surface of the volume mesh
+Found 120 corners at the surface of the volume mesh
+Found 9862 edge points at the surface of the volume mesh
+25 edge groups found!
+--> FOAM Warning : 
+    From bool Foam::Module::edgeExtractor::checkFacePatchesGeometry()
+    in file utilities/surfaceTools/edgeExtraction/edgeExtractor/edgeExtractor.C at line 2138
+    Found 0 points with inverted surface normals. Getting rid of them...
+Starting untangling the surface of the volume mesh
+Number of inverted boundary faces is 12
+Number of inverted boundary faces is 8
+Number of inverted boundary faces is 8
+Number of inverted boundary faces is 8
+Smoothing remaining inverted vertices 
+Number of inverted boundary faces is 0
+Finished untangling the surface of the volume mesh
+Finished geometrical adjustment of patches
+Found 924564 boundary faces 
+Found 120 corners at the surface of the volume mesh
+Found 9862 edge points at the surface of the volume mesh
+Decomposing 0 internal faces
+Performing patch correction
+Found 924564 boundary faces 
+Found 120 corners at the surface of the volume mesh
+Found 9862 edge points at the surface of the volume mesh
+Finished with patch correction
+Found 926488 boundary faces 
+Removing selected cells from the mesh
+New cells size 2537742
+Reordering boundary faces 
+Finished reordering boundary faces
+Removing faces
+Finished removing faces
+Finished removing selected cells from the mesh
+Adding new cells 
+Adding 903 cells to the mesh
+Finished adding cells to the mesh
+Reordering bnd faces
+Reordering boundary faces 
+Finished reordering boundary faces
+Finding bnd faces
+Found 926488 boundary faces 
+Mapping vertices with respect to surface patches
+Found 120 corners at the surface of the volume mesh
+Found 9862 edge points at the surface of the volume mesh
+25 edge groups found!
+Finished mapping vertices with respect to surface patches
+Found 926488 boundary faces 
+Found 120 corners at the surface of the volume mesh
+Found 9862 edge points at the surface of the volume mesh
+Optimizing edges. Iteration:.....
+Optimizing surface vertices. Iteration:.....
+Starting untangling the surface of the volume mesh
+Number of inverted boundary faces is 79
+Number of inverted boundary faces is 79
+Number of inverted boundary faces is 79
+Smoothing remaining inverted vertices 
+Number of inverted boundary faces is 3
+Number of inverted boundary faces is 3
+Number of inverted boundary faces is 3
+Smoothing remaining inverted vertices 
+Number of inverted boundary faces is 3
+Number of inverted boundary faces is 3
+Number of inverted boundary faces is 3
+Smoothing remaining inverted vertices 
+Number of inverted boundary faces is 3
+Number of inverted boundary faces is 3
+Number of inverted boundary faces is 3
+Smoothing remaining inverted vertices 
+Number of inverted boundary faces is 3
+Number of inverted boundary faces is 3
+Number of inverted boundary faces is 3
+Smoothing remaining inverted vertices 
+Number of inverted boundary faces is 3
+Number of inverted boundary faces is 3
+Number of inverted boundary faces is 3
+Smoothing remaining inverted vertices 
+Number of inverted boundary faces is 3
+Number of inverted boundary faces is 3
+Number of inverted boundary faces is 3
+Smoothing remaining inverted vertices 
+Number of inverted boundary faces is 3
+Number of inverted boundary faces is 3
+Number of inverted boundary faces is 3
+Smoothing remaining inverted vertices 
+Number of inverted boundary faces is 3
+Number of inverted boundary faces is 3
+Number of inverted boundary faces is 3
+Smoothing remaining inverted vertices 
+Number of inverted boundary faces is 3
+Number of inverted boundary faces is 3
+Number of inverted boundary faces is 3
+Smoothing remaining inverted vertices 
+Finished untangling the surface of the volume mesh
+Found 926488 boundary faces 
+Found 120 corners at the surface of the volume mesh
+Found 9862 edge points at the surface of the volume mesh
+Found 120 corners at the surface of the volume mesh
+Found 9862 edge points at the surface of the volume mesh
+Starting creating layer cells
+Adding processor faces
+Finished adding processor faces
+Adding processor faces
+Finished adding processor faces
+Adding 129830 cells to the mesh
+Finished adding cells to the mesh
+Reordering boundary faces 
+Finished reordering boundary faces
+Finished creating layer cells
+Found 932040 boundary faces 
+Found 120 corners at the surface of the volume mesh
+Found 9862 edge points at the surface of the volume mesh
+Optimizing edges. Iteration:.....
+Optimizing surface vertices. Iteration:.....
+Starting untangling the surface of the volume mesh
+Number of inverted boundary faces is 22
+Number of inverted boundary faces is 18
+Number of inverted boundary faces is 18
+Number of inverted boundary faces is 18
+Smoothing remaining inverted vertices 
+Number of inverted boundary faces is 4
+Number of inverted boundary faces is 4
+Number of inverted boundary faces is 4
+Smoothing remaining inverted vertices 
+Number of inverted boundary faces is 4
+Number of inverted boundary faces is 4
+Number of inverted boundary faces is 4
+Smoothing remaining inverted vertices 
+Number of inverted boundary faces is 4
+Number of inverted boundary faces is 4
+Number of inverted boundary faces is 4
+Smoothing remaining inverted vertices 
+Number of inverted boundary faces is 4
+Number of inverted boundary faces is 4
+Number of inverted boundary faces is 4
+Smoothing remaining inverted vertices 
+Number of inverted boundary faces is 4
+Number of inverted boundary faces is 4
+Number of inverted boundary faces is 4
+Smoothing remaining inverted vertices 
+Number of inverted boundary faces is 4
+Number of inverted boundary faces is 4
+Number of inverted boundary faces is 4
+Smoothing remaining inverted vertices 
+Number of inverted boundary faces is 4
+Number of inverted boundary faces is 4
+Number of inverted boundary faces is 4
+Smoothing remaining inverted vertices 
+Number of inverted boundary faces is 4
+Number of inverted boundary faces is 4
+Number of inverted boundary faces is 4
+Smoothing remaining inverted vertices 
+Number of inverted boundary faces is 4
+Number of inverted boundary faces is 4
+Number of inverted boundary faces is 4
+Smoothing remaining inverted vertices 
+Finished untangling the surface of the volume mesh
+Found 932040 boundary faces 
+Found 120 corners at the surface of the volume mesh
+Found 9862 edge points at the surface of the volume mesh
+Starting smoothing the mesh
+Starting untangling the mesh
+--> FOAM Warning : 
+    From bool Foam::Module::polyMeshGenChecks::checkFacePyramids(const Foam::Module::polyMeshGen&, bool, Foam::scalar, Foam::labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 2103
+    Error in face pyramids: 1 faces pointing the wrong way!
+--> FOAM Warning : 
+    From bool Foam::Module::polyMeshGenChecks::checkFaceFlatness(const Foam::Module::polyMeshGen&, bool, Foam::scalar, Foam::labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 3004
+    15 faces with severe warpage(flatness < 0.8) found.
+
+--> FOAM Warning : 
+    From bool Foam::Module::polyMeshGenChecks::checkCellPartTetrahedra(const Foam::Module::polyMeshGen&, bool, Foam::scalar, Foam::labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 1582
+    20 zero or negative part tetrahedra detected.
+Iteration 0. Number of bad faces is 33
+--> FOAM Warning : 
+    From bool Foam::Module::polyMeshGenChecks::checkFacePyramids(const Foam::Module::polyMeshGen&, bool, Foam::scalar, Foam::labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 2103
+    Error in face pyramids: 1 faces pointing the wrong way!
+--> FOAM Warning : 
+    From bool Foam::Module::polyMeshGenChecks::checkFaceFlatness(const Foam::Module::polyMeshGen&, bool, Foam::scalar, Foam::labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 3004
+    11 faces with severe warpage(flatness < 0.8) found.
+
+--> FOAM Warning : 
+    From bool Foam::Module::polyMeshGenChecks::checkCellPartTetrahedra(const Foam::Module::polyMeshGen&, bool, Foam::scalar, Foam::labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 1582
+    2 zero or negative part tetrahedra detected.
+Iteration 1. Number of bad faces is 11
+--> FOAM Warning : 
+    From bool Foam::Module::polyMeshGenChecks::checkFacePyramids(const Foam::Module::polyMeshGen&, bool, Foam::scalar, Foam::labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 2103
+    Error in face pyramids: 1 faces pointing the wrong way!
+--> FOAM Warning : 
+    From bool Foam::Module::polyMeshGenChecks::checkFaceFlatness(const Foam::Module::polyMeshGen&, bool, Foam::scalar, Foam::labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 3004
+    10 faces with severe warpage(flatness < 0.8) found.
+
+--> FOAM Warning : 
+    From bool Foam::Module::polyMeshGenChecks::checkCellPartTetrahedra(const Foam::Module::polyMeshGen&, bool, Foam::scalar, Foam::labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 1582
+    2 zero or negative part tetrahedra detected.
+Iteration 2. Number of bad faces is 11
+--> FOAM Warning : 
+    From bool Foam::Module::polyMeshGenChecks::checkFacePyramids(const Foam::Module::polyMeshGen&, bool, Foam::scalar, Foam::labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 2103
+    Error in face pyramids: 1 faces pointing the wrong way!
+--> FOAM Warning : 
+    From bool Foam::Module::polyMeshGenChecks::checkFaceFlatness(const Foam::Module::polyMeshGen&, bool, Foam::scalar, Foam::labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 3004
+    11 faces with severe warpage(flatness < 0.8) found.
+
+--> FOAM Warning : 
+    From bool Foam::Module::polyMeshGenChecks::checkCellPartTetrahedra(const Foam::Module::polyMeshGen&, bool, Foam::scalar, Foam::labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 1582
+    2 zero or negative part tetrahedra detected.
+Iteration 3. Number of bad faces is 11
+--> FOAM Warning : 
+    From bool Foam::Module::polyMeshGenChecks::checkFacePyramids(const Foam::Module::polyMeshGen&, bool, Foam::scalar, Foam::labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 2103
+    Error in face pyramids: 1 faces pointing the wrong way!
+--> FOAM Warning : 
+    From bool Foam::Module::polyMeshGenChecks::checkFaceFlatness(const Foam::Module::polyMeshGen&, bool, Foam::scalar, Foam::labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 3004
+    10 faces with severe warpage(flatness < 0.8) found.
+
+--> FOAM Warning : 
+    From bool Foam::Module::polyMeshGenChecks::checkCellPartTetrahedra(const Foam::Module::polyMeshGen&, bool, Foam::scalar, Foam::labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 1582
+    2 zero or negative part tetrahedra detected.
+Iteration 4. Number of bad faces is 11
+--> FOAM Warning : 
+    From bool Foam::Module::polyMeshGenChecks::checkFacePyramids(const Foam::Module::polyMeshGen&, bool, Foam::scalar, Foam::labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 2103
+    Error in face pyramids: 1 faces pointing the wrong way!
+--> FOAM Warning : 
+    From bool Foam::Module::polyMeshGenChecks::checkFaceFlatness(const Foam::Module::polyMeshGen&, bool, Foam::scalar, Foam::labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 3004
+    11 faces with severe warpage(flatness < 0.8) found.
+
+--> FOAM Warning : 
+    From bool Foam::Module::polyMeshGenChecks::checkCellPartTetrahedra(const Foam::Module::polyMeshGen&, bool, Foam::scalar, Foam::labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 1582
+    2 zero or negative part tetrahedra detected.
+Iteration 5. Number of bad faces is 11
+--> FOAM Warning : 
+    From bool Foam::Module::polyMeshGenChecks::checkFacePyramids(const Foam::Module::polyMeshGen&, bool, Foam::scalar, Foam::labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 2103
+    Error in face pyramids: 1 faces pointing the wrong way!
+--> FOAM Warning : 
+    From bool Foam::Module::polyMeshGenChecks::checkFaceFlatness(const Foam::Module::polyMeshGen&, bool, Foam::scalar, Foam::labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 3004
+    10 faces with severe warpage(flatness < 0.8) found.
+
+--> FOAM Warning : 
+    From bool Foam::Module::polyMeshGenChecks::checkCellPartTetrahedra(const Foam::Module::polyMeshGen&, bool, Foam::scalar, Foam::labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 1582
+    2 zero or negative part tetrahedra detected.
+Iteration 6. Number of bad faces is 11
+--> FOAM Warning : 
+    From bool Foam::Module::polyMeshGenChecks::checkFacePyramids(const Foam::Module::polyMeshGen&, bool, Foam::scalar, Foam::labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 2103
+    Error in face pyramids: 1 faces pointing the wrong way!
+--> FOAM Warning : 
+    From bool Foam::Module::polyMeshGenChecks::checkFaceFlatness(const Foam::Module::polyMeshGen&, bool, Foam::scalar, Foam::labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 3004
+    11 faces with severe warpage(flatness < 0.8) found.
+
+--> FOAM Warning : 
+    From bool Foam::Module::polyMeshGenChecks::checkCellPartTetrahedra(const Foam::Module::polyMeshGen&, bool, Foam::scalar, Foam::labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 1582
+    2 zero or negative part tetrahedra detected.
+Iteration 1. Number of bad faces is 11
+--> FOAM Warning : 
+    From bool Foam::Module::polyMeshGenChecks::checkFaceFlatness(const Foam::Module::polyMeshGen&, bool, Foam::scalar, Foam::labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 3004
+    2 faces with severe warpage(flatness < 0.8) found.
+
+Iteration 2. Number of bad faces is 2
+Iteration 0. Number of bad faces is 0
+Finished untangling the mesh
+Finished smoothing the mesh
+Iteration 0. Number of bad faces is 2568
+Iteration 1. Number of bad faces is 995
+Iteration 2. Number of bad faces is 996
+Iteration 3. Number of bad faces is 991
+Iteration 4. Number of bad faces is 991
+Iteration 5. Number of bad faces is 992
+Iteration 6. Number of bad faces is 992
+Iteration 7. Number of bad faces is 992
+Iteration 8. Number of bad faces is 992
+Iteration 9. Number of bad faces is 992
+Starting untangling the mesh
+--> FOAM Warning : 
+    From bool Foam::Module::polyMeshGenChecks::checkFaceFlatness(const Foam::Module::polyMeshGen&, bool, Foam::scalar, Foam::labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 3004
+    29 faces with severe warpage(flatness < 0.8) found.
+
+Iteration 0. Number of bad faces is 29
+--> FOAM Warning : 
+    From bool Foam::Module::polyMeshGenChecks::checkFaceFlatness(const Foam::Module::polyMeshGen&, bool, Foam::scalar, Foam::labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 3004
+    29 faces with severe warpage(flatness < 0.8) found.
+
+Iteration 1. Number of bad faces is 29
+--> FOAM Warning : 
+    From bool Foam::Module::polyMeshGenChecks::checkFaceFlatness(const Foam::Module::polyMeshGen&, bool, Foam::scalar, Foam::labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 3004
+    29 faces with severe warpage(flatness < 0.8) found.
+
+Iteration 2. Number of bad faces is 29
+--> FOAM Warning : 
+    From bool Foam::Module::polyMeshGenChecks::checkFaceFlatness(const Foam::Module::polyMeshGen&, bool, Foam::scalar, Foam::labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 3004
+    29 faces with severe warpage(flatness < 0.8) found.
+
+Iteration 3. Number of bad faces is 29
+--> FOAM Warning : 
+    From bool Foam::Module::polyMeshGenChecks::checkFaceFlatness(const Foam::Module::polyMeshGen&, bool, Foam::scalar, Foam::labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 3004
+    29 faces with severe warpage(flatness < 0.8) found.
+
+Iteration 4. Number of bad faces is 29
+--> FOAM Warning : 
+    From bool Foam::Module::polyMeshGenChecks::checkFaceFlatness(const Foam::Module::polyMeshGen&, bool, Foam::scalar, Foam::labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 3004
+    29 faces with severe warpage(flatness < 0.8) found.
+
+Iteration 5. Number of bad faces is 29
+--> FOAM Warning : 
+    From bool Foam::Module::polyMeshGenChecks::checkFaceFlatness(const Foam::Module::polyMeshGen&, bool, Foam::scalar, Foam::labelHashSet*, const boolList*)
+    in file utilities/meshes/polyMeshGenChecks/polyMeshGenChecksGeometry.C at line 3004
+    29 faces with severe warpage(flatness < 0.8) found.
+
+Iteration 1. Number of bad faces is 29
+Iteration 2. Number of bad faces is 0
+Finished untangling the mesh
+Renumbering the mesh
+Finished renumbering the mesh
+Renaming boundary patches
+Finished renaming boundary patches
+ExecutionTime = 317.01 s  ClockTime = 342 s
+
+End
+
+Finalising parallel run

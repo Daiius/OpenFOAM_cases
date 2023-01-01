@@ -1,0 +1,39 @@
+FoamFile
+{
+  version 2.0;
+  format ascii;
+  class dictionary;
+  object meshDict;
+}
+
+surfaceFile "surfaces/nozzle.fms";
+
+minCellSize 0.1;
+maxCellSize 0.2;
+boundaryCellSize  0.05;
+
+objectRefinements
+{
+  nozzle_tip
+  {
+    type  cone;
+    p0 (0 0 4);
+    p1 (0 0 0);
+    radius0 1.25;
+    radius1 1.25;
+
+    cellSize 0.05;
+  }
+
+  nozzle_tip_tip
+  {
+    type  cone;
+    p0 (0 0 1);
+    p1 (0 0 0);
+    radius0 0.35;
+    radius1 0.35;
+
+    cellSize 0.025;
+  }
+}
+

@@ -1,0 +1,19 @@
+Parallel Meshing Test
+
+Motivations:
+Preparing parallel solver execution without redundant calculations,
+i.e. writing mesh into processor* dirs without decomposePar.
+
+Succeeded Parallel Mesing:
+mpirun -np 8 -hostfile hostfile cartesianMesh -parallel
+gives ideal result, only for meshes.
+0 directories are not copied/decomposed...
+
+Solution Ideas:
+- Add 0 dirs after mpirun cartesianMesh...
+- Find a way to run decomposePar without coping mesh data
+
+Add 0 dirs after mpirun carteisanMesh works!
+set processor* boundary type processor...
+be careful not to forget scaleMesh
+
